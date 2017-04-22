@@ -1,0 +1,25 @@
+{
+  "name": "warsawjs-workshop-5-chat",
+  "version": "0.1.0",
+  "description": "WarsawJS Workshop #5 - chat",
+  "main": "src/server.js",
+  "scripts": {
+    "server": "node src/server.js",
+    "client": "node src/client.js"
+  },
+  "keywords": [
+    "warsawjs",
+    "workshop",
+    "chat",
+    "server",
+    "client",
+    "cli",
+    "websockets"
+  ],
+  "author": "Konrad Kowalski <rootsher@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  }
+}
